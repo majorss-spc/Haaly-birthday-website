@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#120817" />
+  <title>Happy Birthday, Love ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">for your <span>love</span> ♡</div>
+    <button class="music-btn" id="musicBtn" aria-label="Toggle music">
+      <span class="music-icon">♪</span> <span id="musicText">Play</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="glow glow-one"></div>
+      <div class="glow glow-two"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">A little surprise, made with love</p>
+        <h1>Happy Birthday,<br><em>Love.</em> ❤️</h1>
+        <p class="hero-copy">
+          Today is all about celebrating the beautiful person who makes
+          ordinary moments feel a little more special.
+        </p>
+        <button class="primary-btn" id="surpriseBtn">Open Your Surprise <span>↓</span></button>
+      </div>
+      <div class="scroll-note">scroll to unwrap the moment</div>
+    </section>
+
+    <section class="letter section" id="surprise">
+      <div class="section-tag">01 / A little letter</div>
+      <div class="letter-card reveal">
+        <div class="paper-heart">♥</div>
+        <p class="small-title">To the birthday person...</p>
+        <h2>Some people make life brighter<br>just by being in it.</h2>
+        <p>
+          On your special day, I hope you get every reason to smile,
+          every dream gets a little closer, and every moment feels
+          as wonderful as you deserve.
+        </p>
+        <p>
+          Keep being you. Keep laughing loudly. Keep chasing beautiful
+          things. And most importantly, never forget how loved you are.
+        </p>
+        <div class="signature">with all my heart <span>♥</span></div>
+      </div>
+    </section>
+
+    <section class="moments section">
+      <div class="section-tag">02 / Little moments</div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">The best kind of memories</p>
+        <h2>Small moments.<br><em>Big feelings.</em></h2>
+      </div>
+      <div class="moment-grid">
+        <article class="moment-card card-a reveal">
+          <div class="moment-number">01</div>
+          <div><span>the smiles</span><h3>That make everything better.</h3></div>
+        </article>
+        <article class="moment-card card-b reveal">
+          <div class="moment-number">02</div>
+          <div><span>the laughs</span><h3>We wish could last forever.</h3></div>
+        </article>
+        <article class="moment-card card-c reveal">
+          <div class="moment-number">03</div>
+          <div><span>the memories</span><h3>Worth keeping close.</h3></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wish section">
+      <div class="wish-orb reveal">
+        <div class="cake">🎂</div>
+        <div class="flame f1"></div><div class="flame f2"></div><div class="flame f3"></div>
+      </div>
+      <div class="wish-content reveal">
+        <div class="section-tag">03 / Your wish</div>
+        <h2>Make a wish.<br><em>Make it magical.</em></h2>
+        <p>Close your eyes, make a wish, and tap the button when you're ready.</p>
+        <button class="primary-btn" id="wishBtn">Make a Wish ✨</button>
+      </div>
+    </section>
+
+    <section class="final section">
+      <div class="final-inner reveal">
+        <p class="eyebrow">One last thing...</p>
+        <h2>Happy Birthday,<br><em>my favorite person.</em></h2>
+        <p class="final-copy">May this new chapter bring more love, more laughter and countless beautiful memories.</p>
+        <div class="heart-line">♡ ───────── ♥ ───────── ♡</div>
+        <p class="custom-note">This entire page can be customized with your photos, music, message & name.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with <span>♥</span> for someone special</p>
+    <p class="promo">Want a website like this? DM for a customized birthday website.</p>
+  </footer>
+
+  <div class="wish-modal" id="wishModal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <button class="close-btn" id="closeModal">×</button>
+      <div class="confetti-heart">♥</div>
+      <p class="eyebrow">wish unlocked</p>
+      <h2>May every beautiful thing<br>find its way to you. ✨</h2>
+      <p>Happy Birthday, Love. ❤️</p>
+      <button class="primary-btn" id="closeModalBtn">Keep smiling</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
